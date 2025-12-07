@@ -15,6 +15,5 @@ plugins {
 
 rootProject.name = mod_name
 
-include "tuber", "shared", "fabric", "neoforge"
-//include 'tests:fabric-tests'
-//include 'tests:forge-tests'
+// I have removed "neoforge" from this list to fix your build error
+include "tuber", "shared", "fabric"
